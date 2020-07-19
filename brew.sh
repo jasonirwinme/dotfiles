@@ -92,6 +92,7 @@ brew install python
 brew install readline
 brew install sqlite
 brew install subversion
+brew install zsh
 
 # Install Brew Cask Apps
 brew cask install --appdir="/Applications"  adobe-creative-cloud
@@ -142,7 +143,7 @@ brew cask install --appdir="/Applications"  visual-studio
 brew cask install --appdir="/Applications"  visual-studio-code
 brew cask install --appdir="/Applications"  vlc
 brew cask install --appdir="/Applications"  zoomus
-brew cask install --appdir="/Applications"  zsh
+
 
 # Install extra Apps from Apple App store using MAS
 echo "Installing from Apple AppStore Amphetamine (4.2)"
