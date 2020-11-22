@@ -106,8 +106,11 @@ brew cask install --appdir="/Applications"  backblaze
 brew cask install --appdir="/Applications"  balenaetcher
 brew cask install --appdir="/Applications"  bartender
 brew cask install --appdir="/Applications"  cheatsheet
+brew cask install --appdir="/Applications"  cleanmymac
 brew cask install --appdir="/Applications"  docker
 brew cask install --appdir="/Applications"  dropbox
+brew cask install --appdir="/Applications"  elgato-control-center
+brew cask install --appdir="/Applications"  elgato-stream-deck
 brew cask install --appdir="/Applications"  firefox
 brew cask install --appdir="/Applications"  flume
 brew cask install --appdir="/Applications"  fractal-bot
@@ -115,15 +118,16 @@ brew cask install --appdir="/Applications"  gitkraken
 brew cask install --appdir="/Applications"  google-backup-and-sync
 brew cask install --appdir="/Applications"  google-chrome
 brew cask install --appdir="/Applications"  hammerspoon
-brew cask install --appdir="/Applications"  inssider
 brew cask install --appdir="/Applications"  iterm2
 brew cask install --appdir="/Applications"  java
+brew cask install --appdir="/Applications"  keyboard-maestro
 brew cask install --appdir="/Applications"  logitech-options
 brew cask install --appdir="/Applications"  logmein-client
 brew cask install --appdir="/Applications"  microsoft-office
 brew cask install --appdir="/Applications"  microsoft-teams
 brew cask install --appdir="/Applications"  parallels
 brew cask install --appdir="/Applications"  postman
+brew cask install --appdir="/Applications"  prusaslicer
 brew cask install --appdir="/Applications"  royal-tsx
 brew cask install --appdir="/Applications"  sonos
 brew cask install --appdir="/Applications"  spotify
@@ -131,6 +135,7 @@ brew cask install --appdir="/Applications"  steam
 brew cask install --appdir="/Applications"  teamviewer
 brew cask install --appdir="/Applications"  textexpander
 brew cask install --appdir="/Applications"  tor-browser
+brew cask install --appdir="/Applications"  transmit
 brew cask install --appdir="/Applications"  veracrypt
 brew cask install --appdir="/Applications"  visual-studio
 brew cask install --appdir="/Applications"  visual-studio-code
@@ -151,8 +156,12 @@ echo "Installing from Apple AppStore Jump Desktop (8.4.9)"
 mas install 524141863
 echo "Installing from Apple AppStore LastPass (4.4.0)"
 mas install 926036361
+echo "Installing from Apple AppStore LogicPro"
+mas install 634148309
 echo "Installing from Apple AppStore Magnet (2.4.5)"
 mas install 441258766
+echo "Installing from Apple AppStore MainStage"
+mas install 634159523
 echo "Installing from Apple AppStore Microsoft Remote Desktop (10.3.7)"
 mas install 1295203466
 echo "Installing from Apple AppStore Parallels Client (17.1.21669)"
@@ -178,6 +187,7 @@ mas install 1191449274
 echo "Install Bitdefender"
 echo "Install vpn tracker"
 echo "Install simplify 3d"
+echo "Install ManyCam"
 
 
 
