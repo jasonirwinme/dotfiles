@@ -97,7 +97,7 @@ brew install zsh
 # Install Brew Cask Apps
 brew cask install --appdir="/Applications"  adobe-creative-cloud
 brew cask install --appdir="/Applications"  alfred
-brew cask install --appdir="/Applications"  amazon-workspaces
+brew cask install --appdir="/Applications"  amazon-workspaces 
 brew cask install --appdir="/Applications"  angry-ip-scanner
 brew cask install --appdir="/Applications"  appcleaner
 brew cask install --appdir="/Applications"  autodesk-fusion360
