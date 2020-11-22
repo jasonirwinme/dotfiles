@@ -118,6 +118,7 @@ brew cask install --appdir="/Applications"  gitkraken
 brew cask install --appdir="/Applications"  google-backup-and-sync
 brew cask install --appdir="/Applications"  google-chrome
 brew cask install --appdir="/Applications"  hammerspoon
+brew cask install --appdir="/Applications"  handbrake
 brew cask install --appdir="/Applications"  iterm2
 brew cask install --appdir="/Applications"  java
 brew cask install --appdir="/Applications"  keyboard-maestro
@@ -148,6 +149,8 @@ echo "Installing from Apple AppStore Amphetamine (4.2)"
 mas install 937984704
 echo "Installing from Apple AppStore Downcast (2.9.42)"
 mas install 668429425
+echo "Installing from Apple AppStore Dropzone"
+mas install 695406827
 echo "Installing from Apple AppStore Fantastical (2.5.15)"
 mas install 975937182
 echo "Installing from Apple AppStore Jira (96.0.0)"
