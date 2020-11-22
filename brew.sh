@@ -106,7 +106,6 @@ brew cask install --appdir="/Applications"  backblaze
 brew cask install --appdir="/Applications"  balenaetcher
 brew cask install --appdir="/Applications"  bartender
 brew cask install --appdir="/Applications"  cheatsheet
-brew cask install --appdir="/Applications"  cleanmymac
 brew cask install --appdir="/Applications"  docker
 brew cask install --appdir="/Applications"  dropbox
 brew cask install --appdir="/Applications"  elgato-control-center
@@ -147,12 +146,16 @@ brew cask install --appdir="/Applications"  zoomus
 # Install extra Apps from Apple App store using MAS
 echo "Installing from Apple AppStore Amphetamine (4.2)"
 mas install 937984704
+echo "Installing from Apple AppStore CleanMyMac X"
+mas install 1339170533
 echo "Installing from Apple AppStore Downcast (2.9.42)"
 mas install 668429425
 echo "Installing from Apple AppStore Dropzone"
 mas install 695406827
 echo "Installing from Apple AppStore Fantastical (2.5.15)"
 mas install 975937182
+echo "Installing from Apple AppStore Go2Shell"
+mas install 445770608
 echo "Installing from Apple AppStore Jira (96.0.0)"
 mas install 1475897096
 echo "Installing from Apple AppStore Jump Desktop (8.4.9)"
