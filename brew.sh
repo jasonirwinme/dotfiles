@@ -178,9 +178,9 @@ echo "Installing from Apple AppStore Speedtest (1.9)"
 mas install 1153157709
 echo "Installing from Apple AppStore The Unarchiver (4.1.0)"
 mas install 425424353
-echo "Installing from Apple AppStore Todoist (7.2.3)"
+echo "Installing from Apple AppStore Todoist"
 mas install 585829637
-echo "Installing from Apple AppStore ToothFairy (2.6.1)"
+echo "Installing from Apple AppStore ToothFairy"
 mas install 1191449274
 
 # Install other apps
