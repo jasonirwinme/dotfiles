@@ -70,7 +70,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # Install Brew Apps
 brew install apr
 brew install apr-util
-brew install flume
 brew install gdbm
 brew install gettext
 brew install hadoop
@@ -111,6 +110,7 @@ brew cask install --appdir="/Applications"  fractal-bot
 brew cask install --appdir="/Applications"  gitkraken
 brew cask install --appdir="/Applications"  google-backup-and-sync
 brew cask install --appdir="/Applications"  google-chrome
+brew cask install --appdir="/Applications"  hackintool
 brew cask install --appdir="/Applications"  hammerspoon
 brew cask install --appdir="/Applications"  handbrake
 brew cask install --appdir="/Applications"  iterm2
@@ -121,9 +121,11 @@ brew cask install --appdir="/Applications"  logmein-client
 brew cask install --appdir="/Applications"  microsoft-office
 brew cask install --appdir="/Applications"  microsoft-teams
 brew cask install --appdir="/Applications"  parallels
+brew cask install --appdir="/Applications"  parallels-client
 brew cask install --appdir="/Applications"  postman
 brew cask install --appdir="/Applications"  prusaslicer
 brew cask install --appdir="/Applications"  royal-tsx
+brew cask install --appdir="/Applications"  sharemouse
 brew cask install --appdir="/Applications"  sonos
 brew cask install --appdir="/Applications"  spotify
 brew cask install --appdir="/Applications"  steam
@@ -141,13 +143,11 @@ brew cask install --appdir="/Applications"  zoomus
 # Install extra Apps from Apple App store using MAS
 echo "Installing from Apple AppStore Amphetamine (4.2)"
 mas install 937984704
-echo "Installing from Apple AppStore CleanMyMac X"
-mas install 1339170533
 echo "Installing from Apple AppStore Downcast (2.9.42)"
 mas install 668429425
 echo "Installing from Apple AppStore Dropzone"
 mas install 695406827
-echo "Installing from Apple AppStore Fantastical (2.5.15)"
+echo "Installing from Apple AppStore Fantastical"
 mas install 975937182
 echo "Installing from Apple AppStore Go2Shell"
 mas install 445770608
@@ -155,7 +155,7 @@ echo "Installing from Apple AppStore Jira (96.0.0)"
 mas install 1475897096
 echo "Installing from Apple AppStore Jump Desktop (8.4.9)"
 mas install 524141863
-echo "Installing from Apple AppStore LastPass (4.4.0)"
+echo "Installing from Apple AppStore LastPass"
 mas install 926036361
 echo "Installing from Apple AppStore LogicPro"
 mas install 634148309
@@ -169,7 +169,7 @@ echo "Installing from Apple AppStore Parallels Client (17.1.21669)"
 mas install 600925318
 echo "Installing from Apple AppStore PopClip (2019.10)"
 mas install 445189367
-echo "Installing from Apple AppStore Quiver (3.2.7)"
+echo "Installing from Apple AppStore Quiver"
 mas install 866773894
 echo "Installing from Apple AppStore Skitch (2.8.4)"
 mas install 425955336
