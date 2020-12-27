@@ -22,10 +22,10 @@ set -- -f; source bootstrap.sh
 
 ### Git-free install
 
-To install these dotfiles without Git:
+To install these Brew files without Git:
 
 ```bash
-cd; curl -#L https://github.com/jasonirwinme/dotfiles/tarball/main | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}
+sudo curl -s https://raw.githubusercontent.com/jasonirwinme/dotfiles/master/brew.sh | bash -
 ```
 
 To update later on, just run that command again.
