@@ -121,7 +121,6 @@ brew cask install --appdir="/Applications"  logmein-client
 brew cask install --appdir="/Applications"  microsoft-office
 brew cask install --appdir="/Applications"  microsoft-teams
 brew cask install --appdir="/Applications"  parallels
-brew cask install --appdir="/Applications"  parallels-client
 brew cask install --appdir="/Applications"  postman
 brew cask install --appdir="/Applications"  prusaslicer
 brew cask install --appdir="/Applications"  royal-tsx
@@ -143,14 +142,20 @@ brew cask install --appdir="/Applications"  zoomus
 # Install extra Apps from Apple App store using MAS
 echo "Installing from Apple AppStore Amphetamine (4.2)"
 mas install 937984704
+echo "Installing from Apple AppStore Day One"
+mas install 1055511498
 echo "Installing from Apple AppStore Downcast (2.9.42)"
 mas install 668429425
+echo "Installing from Apple AppStore Disk Speed Test"
+mas install 425264550
 echo "Installing from Apple AppStore Dropzone"
 mas install 695406827
 echo "Installing from Apple AppStore Fantastical"
 mas install 975937182
 echo "Installing from Apple AppStore Go2Shell"
 mas install 445770608
+echo "Installing from Apple AppStore Gemini 2"
+mas install 1090488118
 echo "Installing from Apple AppStore Jira (96.0.0)"
 mas install 1475897096
 echo "Installing from Apple AppStore Jump Desktop (8.4.9)"
@@ -165,6 +170,8 @@ echo "Installing from Apple AppStore MainStage"
 mas install 634159523
 echo "Installing from Apple AppStore Microsoft Remote Desktop (10.3.7)"
 mas install 1295203466
+echo "Installing from Apple AppStore Menu Bar Controller for Sonos"
+mas install 1357379892
 echo "Installing from Apple AppStore Parallels Client (17.1.21669)"
 mas install 600925318
 echo "Installing from Apple AppStore PopClip (2019.10)"
@@ -173,8 +180,6 @@ echo "Installing from Apple AppStore Quiver"
 mas install 866773894
 echo "Installing from Apple AppStore Skitch (2.8.4)"
 mas install 425955336
-echo "Installing from Apple AppStore Slack (4.2.0)"
-mas install 803453959
 echo "Installing from Apple AppStore Speedtest (1.9)"
 mas install 1153157709
 echo "Installing from Apple AppStore The Unarchiver (4.1.0)"
