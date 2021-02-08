@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 
 # Install xcode.
 xcode-select --install
@@ -8,8 +8,6 @@ if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-
-# Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
 brew update
